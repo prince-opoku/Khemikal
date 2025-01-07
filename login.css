@@ -1,0 +1,46 @@
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center; /* Center the text */
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Add a gradient background */
+}
+
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Add a gradient background */
+}
+
+ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+    margin: 20px 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 14px; /* Set font size */
+    color: #555; /* Set text color */
+    text-align: center;
+}
+
+p {
+    margin: 20px 0; /* Add margin to the paragraph */
+    text-align: left; /* Align text to the left */
+    color: #333; /* Set text color */
+    font-size: 16px; /* Set font size */
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel ="stylesheet" type="text/css" href="contact.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    
+<form action="mailto:pamankwahopoku@gmail.com" method="post" enctype="text/plain">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+    
+    <input type="submit" value="Submit">
+</form>
+      
+   <h2><a href="index.html">Back</a></h2> 
+</body>
+</html>
+<!-- Note: To send form data to an email address, you typically need a server-side script (e.g., using PHP, Node.js, etc.) to handle the form submission and send the email. HTML alone cannot send emails. Below is an example using a mailto link, but it has limitations and is not recommended for production use. -->
